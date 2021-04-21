@@ -1,0 +1,34 @@
+/*
+body {
+  background: #333;
+  padding: 2em;
+}
+
+svg {
+  display: block;
+  left: 50%;
+  max-width: 8em;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#rect {
+  animation: slideOver 5s linear infinite;
+}
+
+@keyframes slideOver {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(100%);
+  }
+  50% {
+    transform: translateX(100%);
+  }
+  75% {
+    transform: translateX(0);
+  }
+} */
+/* drugi projekt */

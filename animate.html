@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVG animacija</title>
+    <link rel="stylesheet" href="animate.css">
+    
+
+
+</head>
+<body>
+    <svg viewBox= "-1 -1 2 2" xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+<!--
+    <defs>
+        <clipPath id=clip-path>
+            <rect id="rect" x="0" y="0" height="346" width="250" />
+        </clipPath>
+    </defs>
+
+    <path fill="#000" d="M1.9 0h245.9v58H1.9zM250.1 139.9l-43.8-43.8-81.2 81.2-81.3-81.2L0 139.9l81.2 81.2L0 302.3l43.8 43.9 81.3-81.2 81.2 81.2 43.8-43.9-81.2-81.2"/>
+ 
+    <path clip-path="url(#clip-path)" fill="#fff" d="M1.9 0h245.9v58H1.9zM250.1 139.9l-43.8-43.8-81.2 81.2-81.3-81.2L0 139.9l81.2 81.2L0 302.3l43.8 43.9 81.3-81.2 81.2 81.2 43.8-43.9-81.2-81.2"/>  
+
+-->
+<clipPath id="clip-path">
+    <circle cx="0" cy="0" r="1" fill="aqua" opacity="0.5">
+        <animateTransform attributeName="transform" type="scale" additive="sum" from="0 0" to="1 1" begin="0s" dur="2.5s" repeatCount="indefinite"></animateTransform>
+    </circle>
+</clipPath>  
+
+<circle clip-path="url(#clip-path)" cx ="0" cy="0" r="0.1" fill="none" stroke="red" stroke-width="0.02" opacity="0.5"/>
+<circle clip-path="url(#clip-path)" cx ="0" cy="0" r="0.2" fill="none" stroke="red" stroke-width="0.02" opacity="0.5"/>
+<circle clip-path="url(#clip-path)" cx ="0" cy="0" r="0.3" fill="none" stroke="red" stroke-width="0.02" opacity="0.5"/>
+<circle clip-path="url(#clip-path)" cx ="0" cy="0" r="0.4" fill="none" stroke="red" stroke-width="0.02" opacity="0.5"/>
+
+<circle clip-path="url(#clip-path)" cx ="0" cy="0" r="0.5" fill="none" stroke="red" stroke-width="0.02" opacity="0.5"/>
+
+<circle cx ="0" cy="0" r="0.1" fill="none" stroke="black" stroke-width="0.02" opacity="0.5"/>
+<circle cx ="0" cy="0" r="0.2" fill="none" stroke="black" stroke-width="0.02" opacity="0.5"/>
+<circle cx ="0" cy="0" r="0.3" fill="none" stroke="black" stroke-width="0.02" opacity="0.5"/>
+<circle cx ="0" cy="0" r="0.4" fill="none" stroke="black" stroke-width="0.02" opacity="0.5"/>
+<circle cx ="0" cy="0" r="0.5" fill="none" stroke="black" stroke-width="0.02" opacity="0.5"/>
+  
+ </svg>​
+</body>
+</html>
